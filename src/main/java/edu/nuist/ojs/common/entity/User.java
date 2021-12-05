@@ -60,4 +60,5 @@ public class User implements SessionKey {
 	public String get(Object O) {
 		return this.getClass().getSimpleName() +"-"+ this.userId;
 	}
+
 }
